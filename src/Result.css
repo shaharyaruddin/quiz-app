@@ -1,0 +1,56 @@
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .result-card {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .result-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .result-score {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .score {
+    color: #ffc107;
+  }
+  
+  .result-feedback h4 {
+    font-size: 16px;
+  }
+  
+  .correct-answers {
+    color: #28a745;
+  }
+  
+  .play-again-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-again-button:hover {
+    background-color: #0056b3;
+  }
+  

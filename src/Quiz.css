@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+font-family: 'Times New Roman', Times, serif;
+}
+  
+  .quiz-card {
+    background-color: gray;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .quiz-header {
+  
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px; /* Add margin between elements */
+  }
+  
+  .QuestionsNo {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .QuestionsData {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .answer-section {
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .answer-section button {
+    margin: 5px 0;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .answer-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quiz-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .quiz-footer button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quiz-footer button:first-child {
+    background-color: #dc3545;
+  }
+  
+  .quiz-footer button:last-child {
+    background-color: #28a745;
+    color: white;
+  }
+  .correct-answer {
+    background-color: green; /* Change this color as needed */
+  }
+  
+  .wrong-answer {
+    background-color: red; /* Change this color as needed */
+  }
+  
