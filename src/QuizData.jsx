@@ -4,10 +4,10 @@ const questions=[
 questionText : "How many Days in a week ?",
 answerOptions : [
 
-{answerText: "2" ,isCorrect: false},
-{answerText: "3" ,isCorrect: false},
+{answerText: "10" ,isCorrect: false},
+{answerText: "9" ,isCorrect: false},
 {answerText: "7" ,isCorrect: true},
-{answerText: "5" ,isCorrect: false},
+{answerText: "12" ,isCorrect: false},
 
 ],
 },
